@@ -1,0 +1,13 @@
+# Node.js dependencies
+/node_modules/
+
+# Doc videos
+/videos/
+
+# Editor-specific files
+/.vscode/
+/.idea/
+
+# Common ignore patterns for Windows and macOS
+.DS_Store
+Thumbs.db

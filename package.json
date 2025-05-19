@@ -1,0 +1,36 @@
+{
+  "name": "core-zod-schema-validator",
+  "version": "1.0.0",
+  "description": "Lightweight package for API testing to validate API responses against ZOD schemas. It can be used directly in any project.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sclavijosuero/zod-ajv-schema-validator.git"
+  },
+  "keywords": [
+    "plugin",
+    "zod",
+    "schema",
+    "validator",
+    "json"
+  ],
+  "author": "Sebastian Clavijo Suero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sclavijosuero/zod-ajv-schema-validator/issues"
+  },
+  "homepage": "https://github.com/sclavijosuero/zod-ajv-schema-validator#readme",
+  "dependencies": {
+    "@types/node": "^22.13.5",
+    "lodash": "^4.17.21",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "cypress": "^14.3.3",
+    "typescript": "^5.7.3"
+  }
+}
