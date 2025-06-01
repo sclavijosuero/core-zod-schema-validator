@@ -46,7 +46,7 @@ npm install -D core-zod-schema-validator
 
 ## API Reference
 
-### `validateSchema(data, schema[, issuesStyles])`
+### `validateSchemaZod(data, schema[, issuesStyles])`
 
 Function that validates the given JSON data against the provided Zod schema.
 
